@@ -1,4 +1,4 @@
-Name:           puppet-module_data
+Name:           puppet-module-data
 Version:        XXX
 Release:        XXX
 Summary:        A hiera backend to allow the use of data while writing sharable modules
