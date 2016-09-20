@@ -7,8 +7,8 @@
 
 
 Name:           puppet-module-data
-Version:        XXX
-Release:        XXX
+Version:        0.0.4
+Release:        1%{?alphatag}%{?dist}
 Summary:        A hiera backend to allow the use of data while writing sharable modules
 License:        ASL 2.0
 
@@ -48,4 +48,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/module-data/
 
 
 %changelog
+* Wed Sep 21 2016 Haikel Guemar <hguemar@fedoraproject.org> - 0.0.4-1.28dafce.git
+- Newton update 0.0.4 (28dafce3a70b35364d33f64d9f518e1adffef242)
+
 
