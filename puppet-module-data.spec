@@ -7,8 +7,8 @@
 
 
 Name:           puppet-module-data
-Version:        XXX
-Release:        XXX
+Version:        0.5.1
+Release:        1%{?alphatag}%{?dist}
 Summary:        A hiera backend to allow the use of data while writing sharable modules
 License:        ASL 2.0
 
@@ -48,5 +48,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/module-data/
 
 
 %changelog
+* Fri Mar 25 2022 RDO <dev@lists.rdoproject.org> 0.5.1-1.28dafcegit
+- Update to post 0.5.1 (28dafce3a70b35364d33f64d9f518e1adffef242)
+
 
 
